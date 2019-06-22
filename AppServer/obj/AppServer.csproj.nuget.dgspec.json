@@ -1,0 +1,156 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\CodeTest\\AppServer\\AppServer.csproj": {}
+  },
+  "projects": {
+    "C:\\CodeTest\\AppServer\\AppServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\CodeTest\\AppServer\\AppServer.csproj",
+        "projectName": "AppServer",
+        "projectPath": "C:\\CodeTest\\AppServer\\AppServer.csproj",
+        "packagesPath": "C:\\Users\\Durga\\.nuget\\packages\\",
+        "outputPath": "C:\\CodeTest\\AppServer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Durga\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/dotnet-core/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/dotnet-windowsdesktop/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.AspNetCore.App.Ref": {
+              "include": "None",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0-preview3-19153-02, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Mvc.Formatters.Json": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.0.0-preview3-19153-02, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.0.0-preview5.19227.9, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App.Ref": {
+              "include": "None",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0-preview3-27503-5, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NETCore.Platforms": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0-preview3.19128.7, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.0.0-preview5-19264-04, )"
+            },
+            "Microsoft.WindowsDesktop.App": {
+              "include": "None",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0-preview3-27504-2, )",
+              "autoReferenced": true
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.Sinks.RollingFile": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "StyleCop": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "StyleCopPlus.MSBuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.7.49.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.0-rc2, )"
+            },
+            "runtime.win-x64.Microsoft.NETCore.DotNetAppHost": {
+              "include": "None",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0-preview3-27503-5, )",
+              "autoReferenced": true
+            },
+            "xunit.extensibility.core": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": [
+            "Microsoft.AspNetCore.App",
+            "Microsoft.NETCore.App"
+          ]
+        }
+      }
+    }
+  }
+}
